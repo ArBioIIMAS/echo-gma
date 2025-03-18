@@ -351,7 +351,7 @@ def main(args):
     model = model.module
     model.to(DEVICE)
     model.eval()
-    root =  '/home/alan/Documents/finalProject/syntheticDatabase/data/training'
+    root =  'data/training'
     for fab in os.listdir(root):
         for pac in os.listdir(os.path.join(root,fab,'A4C')):
             aug_pth = [augD for augD in os.listdir(os.path.join(root,fab,'A4C',pac)) if 'aug' in augD ] #img para dataset sin aumento y aug para dataset con aumento

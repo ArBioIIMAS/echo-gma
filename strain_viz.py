@@ -1,7 +1,5 @@
 import sys
-
 sys.path.append('core')
-
 import argparse
 import os
 import cv2
@@ -22,7 +20,6 @@ import scipy
 from scipy.interpolate import UnivariateSpline
 import pandas as pd
 import sys
-sys.path.append('core')
 import time
 import glob
 import torch
@@ -137,7 +134,9 @@ def avgdigamma(points, dvec):
 
 
 def gdt_strain(pth,segments):
-    eng = matlab.engine.start_matlab()
+    eng = matlab.engine.start_matlab()    
+    # Add the matlab-methods directory to MATLAB's path
+    eng.addpath(os.path.abspath('matlab-methods'), nargout=0)
     gdt = scipy.io.loadmat(pth + 'ground_truth.mat') ['X_gt']
     img = scipy.io.loadmat ( pth + 'im_sim.mat' ) ['im_sim']
     info = scipy.io.loadmat ( pth + 'info.mat' ) ['info']
@@ -357,7 +356,7 @@ def main(args):
     model = model.module.to(DEVICE)  # Move the model to the correct device
     print(DEVICE)
     model.eval()
-    root =  '../finalProject/syntheticDatabase/data/training'
+    root =  'data/training'
     print(os.listdir(root)[4])
     for fab in [os.listdir(root)[4]]:
         print([os.listdir(os.path.join(root,fab,'A4C'))[0]])

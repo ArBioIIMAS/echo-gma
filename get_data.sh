@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+mkdir data
 # Download the file using gdown (a Python tool for downloading files from Google Drive)
 pip install gdown  # Install gdown if not already installed
 cd data
