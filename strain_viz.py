@@ -195,8 +195,8 @@ def gdt_strain(pth,segments):
 def pred_strain(pth,flowSeq,segments):
     
     eng = matlab.engine.start_matlab()
-
-
+    # Add the matlab-methods directory to MATLAB's path
+    eng.addpath(os.path.abspath('matlab-methods'), nargout=0)
     gdt = scipy.io.loadmat(pth + 'ground_truth.mat') ['X_gt']
     img = scipy.io.loadmat ( pth + 'im_sim.mat' ) ['im_sim']
     info = scipy.io.loadmat ( pth + 'info.mat' ) ['info']
