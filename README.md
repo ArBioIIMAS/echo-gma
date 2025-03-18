@@ -1,7 +1,9 @@
 # echo-gma
-This a repository to reproduce the results reported in the paper "Estimating Echocardiographic Myocardial Strain of Left Ventricle with Deep Learning" 
+This a repository to reproduce the results reported in the paper:
+[Estimating Echocardiographic Myocardial Strain of Left Ventricle with Deep Learning](https://ieeexplore.ieee.org/document/9872008)
+EMBC 2022
+Alan Romero-Pacheco; Jorge Perez-Gonzalez; Nidiyare Hevia-Montiel
 
-Methodology
 ![alt text](methodology.png)
 
 ## Start locally
@@ -25,3 +27,6 @@ Reproduce strain graphics
 ```bash
   python strain_viz.py
 ```
+
+## Acknowledgement
+Huge shoutout goes to @zacjiang. The overall code is adapted from [GMA respository](https://github.com/zacjiang/GMA).
