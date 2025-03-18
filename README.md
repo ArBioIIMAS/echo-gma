@@ -15,7 +15,7 @@ Environment setup
   conda activate gma
 ```
 
-Download data
+Download [data](https://drive.google.com/file/d/133ryluTjygAa4fEWNEal2YgelweHmbY1/view?usp=sharing)
 ```bash
   ./get_data.sh
 ```
