@@ -4,8 +4,6 @@ This a repository to reproduce the results reported in the paper:<br/>
 EMBC 2022<br/>
 Alan Romero-Pacheco; Jorge Perez-Gonzalez; Nidiyare Hevia-Montiel<br/>
 
-![alt text](methodology.png)
-
 ## Start locally
 
 Environment setup
