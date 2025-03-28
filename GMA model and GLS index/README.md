@@ -1,9 +1,3 @@
-# Estimating Echocardiographic Myocardial Strain of Left Ventricle with Deep Learning
-This a repository to reproduce the results reported in the paper:<br/>
-[Estimating Echocardiographic Myocardial Strain of Left Ventricle with Deep Learning](https://ieeexplore.ieee.org/document/9872008)<br/>
-EMBC 2022<br/>
-Alan Romero-Pacheco; Jorge Perez-Gonzalez; Nidiyare Hevia-Montiel<br/>
-
 ## Start locally
 
 Environment setup
