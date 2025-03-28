@@ -1,9 +1,6 @@
 # Deep Learning-Based Estimation of Left Ventricle Myocardial Strain from Echocardiograms with Occlusion Artifacts
-This a repository to reproduce the results reported in the paper:<br/>
-Deep Learning-Based Estimation of Left Ventricle Myocardial Strain from Echocardiograms with Occlusion Artifacts
-<br/>
-EMBC 2022<br/>
-Alan Romero-Pacheco; Nidiyare Hevia-Montiel;  Blanca Vazquez; Fernando Arámbula Cosío; Jorge Perez-Gonzalez<br/>
+This a repository to reproduce the results reported in the paper: "Deep Learning-Based Estimation of Left Ventricle Myocardial Strain from Echocardiograms with Occlusion Artifacts"
+Alan Romero-Pacheco; Nidiyare Hevia-Montiel;  Blanca Vazquez; Fernando Arámbula Cosío; Jorge Perez-Gonzalez.
 
 ![alt text](methodology.png)
 
