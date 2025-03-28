@@ -1,2 +1,2 @@
-# LVW-SEGMENTATION-CNN
-En este proyecto se implementara una red neuronal convolucional para la segmentación de las paredes del ventrículo izquierdo. Este proyecto es implementado en TensorFlow y CuDNN.
+# Res-UNet
+This project implements a convolutional neural network for segmenting left ventricular walls. This project is implemented in TensorFlow and CuDNN.
