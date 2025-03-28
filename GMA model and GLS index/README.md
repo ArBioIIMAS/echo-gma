@@ -1,5 +1,4 @@
 # GMA model
------------------------
 
 ## Start locally
 
