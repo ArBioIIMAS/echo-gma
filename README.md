@@ -4,6 +4,15 @@ Alan Romero-Pacheco; Nidiyare Hevia-Montiel;  Blanca Vazquez; Fernando Arámbula
 
 ![alt text](methodology.png)
 
+
+## Brief introduction
+This repository is organized as follows:
+
+* **Data augmentation:** this folder contains the scripts to data augmentation by introducing occlusion artifacts and speckle noise into echocardiographic images.
+* **ResUNet model:** contains the scripts for the proposed Res–UNet neural network to segment the LV walls automatically.
+* **GMA model:** contains the code for the proposed Global Motion Aggregation (GMA) module for flow estimation in images affected by occlusion artifacts.
+* **GLS index:** presents the scripts for estimating the Global Longitudinal Strain (GLS) index.
+
 ## Start locally
 
 Environment setup
